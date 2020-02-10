@@ -5,6 +5,7 @@
   <remote name="couchbasedeps" fetch="git://github.com/couchbasedeps/" review="review.couchbase.org"/>
   <remote name="couchbaselabs" fetch="git://github.com/couchbaselabs/" review="review.couchbase.org"/>
   <remote name="blevesearch" fetch="git://github.com/blevesearch/"/>
+  <remote fetch="http://review.couchbase.org/" name="gerrit" />
 
   <default remote="couchbase" revision="master"/>
 
@@ -33,7 +34,7 @@
   <project name="kv_engine" groups="kv" revision="mad-hatter"/>
   <project name="libcouchbase" revision="152e1a18bbcfd75bbb5a1388ed5ee050cde8a56d" groups="notdefault,enterprise"/>
   <project name="magma" revision="c8e91e0af8b46d0a0e026d23ebbfab4048f670b6" groups="notdefault,enterprise,kv_ee" remote="couchbase-priv"/>
-  <project name="ns_server" revision="mad-hatter"/>
+  <project name="ns_server" revision="refs/changes/01/122001/1" remote="gerrit"/>
   <project name="phosphor" groups="kv" revision="53ca1eeae7bd3deea5b7bf48b3d4188b47e530d1"/>
   <project name="platform" groups="kv" revision="mad-hatter"/>
   <project name="product-texts" groups="kv" revision="7a3aa547b3f5eb3ea28d279a08384609cd2cea7c"/>
